@@ -1,18 +1,6 @@
 let nome = prompt('Digite seu nome: ')
 alert(`Boas vindas ao jogo do numero secreto, ${nome}!`)
 
-// Desafio ---------------------------------
-// let idade = prompt('Digite sua idade: ')
-// if (idade > 18) {
-//     alert('Pode tirar habilitação!😄')
-// } else {
-//     alert('Não pode tirar habilitação 🥲')
-// }
-// let numeroDeVendas = 50
-// let saldoDisponivel = 1000
-// let mensagemDeErro = 'Erro! Preencha todos os campos!'
-// alert(mensagemDeErro)
-// -----------------------------------------
 let numeroMaximo = 100
 let numeroSecreto = parseInt(Math.random() * numeroMaximo + 1)
 let tentativa
@@ -37,5 +25,18 @@ while (tentativa != numeroSecreto) {
 // ternário
 let palavraTentativa = qtdTentativas > 1 ? 'tentativas' : 'tentativa'
 alert(
-    `Parabéns, ${nome}! Você descobriu o número secreto (${numeroSecreto}), com ${qtdTentativas} ${palavraTentativa}!`
+    `Parabéns, ${nome}! Você descobriu o número secreto (${numeroSecreto}), com ${qtdTentativas} ${palavraTentativa}!`,
 )
+
+// Desafio ---------------------------------
+// let idade = prompt('Digite sua idade: ')
+// if (idade > 18) {
+//     alert('Pode tirar habilitação!😄')
+// } else {
+//     alert('Não pode tirar habilitação 🥲')
+// }
+// let numeroDeVendas = 50
+// let saldoDisponivel = 1000
+// let mensagemDeErro = 'Erro! Preencha todos os campos!'
+// alert(mensagemDeErro)
+// -----------------------------------------
