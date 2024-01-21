@@ -11,7 +11,7 @@ conteúdo.
 Este repositório é dedicado a armazenar o meu progresso durante o programa.
 
 Você pode entender mais sobre o programa
-[aqui](https://www.oracle.com/br/education/oracle-next-education/)
+[aqui.](https://www.oracle.com/br/education/oracle-next-education/)
 
 ## Cursos realizados
 
@@ -29,7 +29,7 @@ Você pode entender mais sobre o programa
 -   Javascript: Logica de programação (6 horas) - Concluído
 -   Javascript: Funções e listas (6 horas) - Concluído
 -   HTML e CSS: Ambiente de desenvolvimento, estrutura de arquivos e tags (8
-    horas) Concluído
+    horas) - Concluído
 -   HTML e CSS: Classes, posicionamento e flexbox (8 horas)
 -   HTML e CSS: Cabeçalho, footer e variáveis CSS (6 horas)
 -   HTML e CSS: Trabalhando com responsividade e publicação de projetos (6
