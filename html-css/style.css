@@ -1,0 +1,30 @@
+body {
+    background-color: #101010;
+    color: #f6f6f6;
+}
+
+#destaque-titulo {
+    color: #ffc67c;
+}
+
+#texto {
+    padding-left: 15px;
+}
+
+a {
+    color: #ffc67c;
+    padding-left: 28px;
+    padding-right: 28px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+    border: #ffc67c;
+    border-style: dashed;
+}
+
+img {
+    padding: 15px;
+    border-radius: 100%;
+    border: #ffc67c;
+    border-style: outset;
+}
