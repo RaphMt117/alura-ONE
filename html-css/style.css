@@ -1,17 +1,18 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
     background-color: #101010;
     color: #f6f6f6;
 }
 
-#destaque-titulo {
+.destaque-titulo {
     color: #ffc67c;
 }
 
-#texto {
-    padding-left: 15px;
-}
-
-a {
+.rede-social {
     color: #ffc67c;
     padding-left: 28px;
     padding-right: 28px;
