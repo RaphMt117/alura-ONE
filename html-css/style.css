@@ -1,26 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Lemon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600&family=Grape+Nuts&family=Lemon&display=swap');
+
 * {
     margin: 0px;
     padding: 0px;
 }
 
 body {
+    height: 100%;
     background-color: #101010;
-    color: #f6f6f6;
+    color: #ffffe8;
+}
+
+#titulo {
+    font-size: 36px;
+    /* font-family: 'Lato', sans-serif; */
+    font-family: 'Grape Nuts', cursive;
+    font-family: 'Lemon', serif;
+    font-size: 40px;
 }
 
 .destaque-titulo {
     color: #ffc67c;
+    font-family: 'Grape Nuts', cursive;
+    font-weight: 600;
+    font-size: 65px;
+}
+
+.texto {
+    font-size: 32px;
+    font-family: 'Grape Nuts', cursive;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#apresentacao {
+    margin: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10% 15%;
 }
 
 .rede-social {
-    color: #ffc67c;
-    padding-left: 28px;
-    padding-right: 28px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-radius: 15px;
-    border: #ffc67c;
-    border-style: dashed;
+    background-color: #ffc67c;
+    width: 250px;
+    border-radius: 25px;
+    padding: 18px 0;
+    margin: 0px 40px;
+    color: #101010;
+    font-family: 'Grape Nuts', cursive;
+    font-size: x-large;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.conteudo {
+    width: 800px;
+    padding-right: 35px;
 }
 
 img {
@@ -28,4 +67,10 @@ img {
     border-radius: 100%;
     border: #ffc67c;
     border-style: outset;
+}
+
+.links {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
 }
