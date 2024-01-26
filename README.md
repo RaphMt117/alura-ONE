@@ -31,6 +31,6 @@ Você pode entender mais sobre o programa
 -   HTML e CSS: Ambiente de desenvolvimento, estrutura de arquivos e tags (8
     horas) - Concluído
 -   HTML e CSS: Classes, posicionamento e flexbox (8 horas) - Concluído
--   HTML e CSS: Cabeçalho, footer e variáveis CSS (6 horas)
+-   HTML e CSS: Cabeçalho, footer e variáveis CSS (6 horas) - Concluído
 -   HTML e CSS: Trabalhando com responsividade e publicação de projetos (6
     horas)

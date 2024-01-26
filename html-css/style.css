@@ -2,6 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600&family=Grape+Nuts&family=Lemon&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
 
+:root {
+    --cor-primaria: #101010;
+    --cor-secundaria: #ffffe8;
+    --cor-terciaria: #ffc67c;
+    --cor-hover: #272727;
+}
+
 * {
     margin: 0px;
     padding: 0px;
@@ -9,8 +16,8 @@
 
 body {
     height: 100%;
-    background-color: #101010;
-    color: #ffffe8;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
 }
 
 .navbar {
@@ -27,17 +34,17 @@ body {
     font-family: 'Courier New', monospace;
     font-size: 24px;
     font-weight: 600;
-    color: #ffc67c;
+    color: var(--cor-terciaria);
     text-decoration: none;
 }
 
-#titulo {
+.titulo {
     font-family: 'Krona One', sans-serif;
     font-size: 26px;
 }
 
 .destaque-titulo {
-    color: #ffc67c;
+    color: var(--cor-terciaria);
     font-family: 'Grape Nuts', cursive;
     font-weight: 600;
     font-size: 56px;
@@ -51,7 +58,7 @@ body {
     padding-bottom: 25px;
 }
 
-#apresentacao {
+.apresentacao {
     padding: 5% 10%;
     display: flex;
     align-items: center;
@@ -71,7 +78,7 @@ body {
 .imagem {
     padding: 15px;
     border-radius: 100%;
-    border: #ffc67c;
+    border: var(--cor-terciaria);
     border-style: outset;
 }
 
@@ -91,12 +98,12 @@ body {
 }
 
 .rede-social {
-    border: 4px solid #ffc67c;
+    border: 4px solid var(--cor-terciaria);
     width: 378px;
     border-radius: 14px;
     padding: 18px 0;
     margin: 0px 40px;
-    color: #ffffe8;
+    color: var(--cor-secundaria);
     font-family: 'Krona One', sans-serif;
     font-size: 24px;
     display: flex;
@@ -108,7 +115,7 @@ body {
 }
 
 .rede-social:hover {
-    background-color: #272727;
+    background-color: var(--cor-hover);
 }
 
 .navbar__link:hover {
@@ -116,8 +123,8 @@ body {
 }
 
 .rodape {
-    background-color: #ffc67c;
-    color: #101010;
+    background-color: var(--cor-terciaria);
+    color: var(--cor-primaria);
     padding: 22px;
     text-align: center;
     font-family: 'Courier New', monospace;
