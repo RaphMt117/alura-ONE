@@ -7,7 +7,12 @@
         <link rel="stylesheet" href="style.css" />
     </head>
     <body>
-        <header></header>
+        <header class="navbar">
+            <nav class="navbar__menu">
+                <a class="navbar__link" href="#">Home</a>
+                <a class="navbar__link" href="#">Sobre Mim</a>
+            </nav>
+        </header>
         <main id="apresentacao">
             <section class="conteudo">
                 <h1 id="titulo">
@@ -22,18 +27,32 @@
                     ideias. Vamos conversar?
                 </p>
                 <div class="links">
+                    <h2 class="links__subtitulo">Acesse minhas redes:</h2>
+                    <a class="rede-social" href="https://github.com/RaphMt117">
+                        <img
+                            class="icon"
+                            src="assets/github-icon.svg"
+                            alt="github icon"
+                        />
+                        Github
+                    </a>
                     <a
                         class="rede-social"
                         href="https://www.linkedin.com/in/rafael-marques-e-torres/"
-                        >Linkedin</a
                     >
-                    <a class="rede-social" href="https://github.com/RaphMt117"
-                        >Github</a
-                    >
+                        <img
+                            class="icon"
+                            src="assets/linkedin-icon.svg"
+                            alt="github icon"
+                        />
+                        Linkedin
+                    </a>
                 </div>
             </section>
-            <img id="foto" src="image.jpg" alt="profile pic" />
+            <img class="imagem" src="./assets/image.jpg" alt="profile pic" />
         </main>
-        <footer></footer>
+        <footer class="rodape">
+            <p>Desenvolvido por Rafael Marques</p>
+        </footer>
     </body>
 </html>
